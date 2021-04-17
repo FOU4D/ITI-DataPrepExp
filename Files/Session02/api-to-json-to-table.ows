@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<scheme version="2.0" title="" description="">
+	<nodes>
+		<node id="0" name="Python Script" qualified_name="Orange.widgets.data.owpythonscript.OWPythonScript" project_name="Orange3" version="" title="Python Script" position="(37.0, 87.0)" />
+		<node id="1" name="Data Table" qualified_name="Orange.widgets.data.owtable.OWDataTable" project_name="Orange3" version="" title="Data Table" position="(248.0, 64.0)" />
+	</nodes>
+	<links>
+		<link id="0" source_node_id="0" sink_node_id="1" source_channel="Data" sink_channel="Data" enabled="true" />
+	</links>
+	<annotations />
+	<thumbnail />
+	<node_properties>
+		<properties node_id="0" format="literal">{'controlAreaVisible': True, 'currentScriptIndex': 1, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x00\xf7\x00\x00\x00@\x00\x00\x04J\x00\x00\x02d\x00\x00\x00\xf7\x00\x00\x00e\x00\x00\x04J\x00\x00\x02d\x00\x00\x00\x00\x00\x00\x00\x00\x05V\x00\x00\x00\xf7\x00\x00\x00e\x00\x00\x04J\x00\x00\x02d', 'scriptLibrary': [{'name': 'api', 'script': 'import requests\nimport json\n\nurl = "https://community-open-weather-map.p.rapidapi.com/forecast"\n\nquerystring = {"q":"Cairo,EG"}\n\nheaders = {\n    \'x-rapidapi-key\': "2a9769dc82msh399ea7c7313cd01p1c533cjsne440d55603bb",\n    \'x-rapidapi-host\': "community-open-weather-map.p.rapidapi.com"\n    }\n\nresponse = requests.request("GET", url, headers=headers, params=querystring)\n\n\n\np = json.loads(response.text)\nprint(p)', 'filename': None}], 'scriptText': 'import requests\nimport json\n\nurl = "https://community-open-weather-map.p.rapidapi.com/forecast"\n\nquerystring = {"q":"Cairo,EG"}\n\nheaders = {\n    \'x-rapidapi-key\': "2a9769dc82msh399ea7c7313cd01p1c533cjsne440d55603bb",\n    \'x-rapidapi-host\': "community-open-weather-map.p.rapidapi.com"\n    }\n\nresponse = requests.request("GET", url, headers=headers, params=querystring)\n\n\n\np = json.loads(response.text)\nprint(p["list"][2]["main"])', 'splitterState': b'\x00\x00\x00\xff\x00\x00\x00\x01\x00\x00\x00\x02\x00\x00\x00f\x00\x00\x00f\x01\xff\xff\xff\xff\x01\x00\x00\x00\x02\x00', '__version__': 2}</properties>
+		<properties node_id="1" format="literal">{'auto_commit': True, 'color_by_class': True, 'controlAreaVisible': True, 'dist_color_RGB': (220, 220, 220, 255), 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x02\xbe\x00\x00\x00&amp;\x00\x00\x04\xf0\x00\x00\x02&gt;\x00\x00\x02\xbe\x00\x00\x00K\x00\x00\x04\xf0\x00\x00\x02&gt;\x00\x00\x00\x00\x00\x00\x00\x00\x05V\x00\x00\x02\xbe\x00\x00\x00K\x00\x00\x04\xf0\x00\x00\x02&gt;', 'select_rows': True, 'selected_cols': [], 'selected_rows': [], 'show_attribute_labels': True, 'show_distributions': False, '__version__': 2}</properties>
+	</node_properties>
+	<session_state>
+		<window_groups />
+	</session_state>
+</scheme>

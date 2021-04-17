@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<note>
-  <to>Tove</to>
-  <from>Jani</from>
-  <heading>Reminder</heading>
-  <body>Don't forget me this weekend!</body>
-</note>
+<notes>
+	<note id="8">
+	  <to>Tove</to>
+	  <from>Jani</from>
+	  <heading>Reminder</heading>
+	  <body>Don't forget me this weekend!</body>
+	</note>
+	<note id="10">
+	  <to>Mohamed</to>
+	  <from>Ahmed</from>
+	  <heading>Send Email</heading>
+	  <body>Email Attendance</body>
+	</note>
+</notes>

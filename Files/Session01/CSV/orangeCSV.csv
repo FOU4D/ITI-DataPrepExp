@@ -1,0 +1,6 @@
+outlook,temperature,humidity,windy,play,Group
+b'overcast' b'rainy' b'sunny',continuous,continuous,b'FALSE' b'TRUE',b'no' b'yes',discrete
+,,,,,class
+b'sunny',72.0,95.0,b'FALSE',b'no',G1
+b'overcast',72.0,90.0,b'TRUE',b'yes',G1
+b'rainy',71.0,91.0,b'TRUE',b'no',G1
