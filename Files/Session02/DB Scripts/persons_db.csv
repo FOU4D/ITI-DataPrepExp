@@ -1,0 +1,11 @@
+id,first_name,last_name,dob,email
+1,John,Doe,1995-01-05,john.doe@postgresqltutorial.com
+2,Jane,Doe,1995-02-05,jane.doe@postgresqltutorial.com
+3,John,Doe,1995-01-05,john.doe@postgresqltutorial.com
+4,Jane,Doe,1995-02-05,jane.doe@postgresqltutorial.com
+5,Doe,John,1995-01-05,john.doe@postgresqltutorial.com
+6,Doe,Jane,1995-02-05,jane.doe@postgresqltutorial.com
+7,John,Doe,1995-01-05,john.doe@postgresqltutorial.com
+8,Jane,Doe,1995-02-05,jane.doe@postgresqltutorial.com
+9,John,Doe,1995-01-05,john.doe@postgresqltutorial.com
+10,Jane,Doe,1995-02-05,jane.doe@postgresqltutorial.com
