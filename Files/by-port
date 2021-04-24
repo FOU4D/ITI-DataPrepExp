@@ -1,0 +1,4 @@
+PassengerId,Pclass,Sex,Age,SibSp,Parch,Fare,Embarked,Selected,Name,Ticket,Cabin
+continuous,continuous,female male,discrete,continuous,continuous,continuous,Cherbourg\ Port Queenstown\ Port Southampton\ Port,discrete,string,string,string
+,,,,,,,,class,meta,meta,meta
+10.0,2.0,female,,1.0,0.0,30.0708,Cherbourg Port,Cherbourg Port,"Nasser, Mrs. Nicholas (Adele Achem)",237736,

@@ -1,0 +1,4 @@
+PassengerId,Pclass,Sex,Age,SibSp,Parch,Fare,Embarked,Name,Ticket,Cabin
+continuous,continuous,female male,continuous,continuous,continuous,continuous,C Q S,string,string,string
+,,,,,,,,meta,meta,meta
+0.0,0.0,female,,0.0,0.0,0.0,Q,"McNeill, Miss. Bridget",370368,
