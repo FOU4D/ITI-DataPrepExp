@@ -1,0 +1,12 @@
+@relation ''
+
+@attribute id numeric
+@attribute name string
+@attribute city string
+
+@data
+1,ahmed,Aswan
+2,mohamed,Tanta
+3,mahmoud,Alex
+4,alyaa,Suez
+5,mona,Cairo
